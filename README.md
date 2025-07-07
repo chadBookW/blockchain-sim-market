@@ -38,8 +38,8 @@ A decentralized trading system simulation. Multiple parties can record and verif
 │   Block #1    │<───│   Block #2    │<───│   Block #3    │
 │               │    │               │    │               │
 │ Transactions  │    │ Transactions  │    │ Transactions  │
-│ - Alice→Bob:10│    │ - Bob→Charlie:│    │ - Charlie→Dave│
-│ - Eve→Frank:15│    │ - Grace→Henry:│    │ - Irene→Jack: │
+│ - Alice→Bob: 10│   │ - Bob→Charlie: 5│  │ - Charlie→Dave: 3│
+│ - Eve→Frank: 15│   │ - Grace→Henry: 8│  │ - Irene→Jack: 12│
 │               │    │               │    │               │
 │ Hash: abc123  │    │ Hash: def456  │    │ Hash: ghi789  │
 │ Signature: xyz│    │ Signature: uvw│    │ Signature: rst│
