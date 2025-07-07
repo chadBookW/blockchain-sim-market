@@ -1,6 +1,6 @@
 import pytest
-from market_sim.ledger.blockchain import BlockchainTradeLedger
-from market_sim.agents.base_agent import BaseAgent
+from ledger.blockchain import BlockchainTradeLedger
+from agents.base_agent import BaseAgent
 
 def test_block_addition():
     ledger = BlockchainTradeLedger()
