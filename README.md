@@ -34,16 +34,16 @@ A decentralized trading system simulation. Multiple parties can record and verif
 ## Architecture
 
 ```
-┌───────────────┐ ┌───────────────┐ ┌───────────────┐
-│   Block #1    │ │   Block #2    │ │   Block #3    │
-│               │ │               │ │               │
-│ Transactions  │ │ Transactions  │ │ Transactions  │
-│ - Alice→Bob:10│ │ - Bob→Charlie:│ │ - Charlie→Dave│
-│ - Eve→Frank:15│ │ - Grace→Henry:│ │ - Irene→Jack: │
-│               │ │               │ │               │
-│ Hash: abc123  │◄┤ Hash: def456  │◄┤ Hash: ghi789  │
-│ Signature: xyz│ │ Signature: uvw│ │ Signature: rst│
-└───────────────┘ └───────────────┘ └───────────────┘
+┌───────────────┐    ┌───────────────┐    ┌───────────────┐
+│   Block #1    │<───│   Block #2    │<───│   Block #3    │
+│               │    │               │    │               │
+│ Transactions  │    │ Transactions  │    │ Transactions  │
+│ - Alice→Bob:10│    │ - Bob→Charlie:│    │ - Charlie→Dave│
+│ - Eve→Frank:15│    │ - Grace→Henry:│    │ - Irene→Jack: │
+│               │    │               │    │               │
+│ Hash: abc123  │    │ Hash: def456  │    │ Hash: ghi789  │
+│ Signature: xyz│    │ Signature: uvw│    │ Signature: rst│
+└───────────────┘    └───────────────┘    └───────────────┘
 ```
 
 ## Components
